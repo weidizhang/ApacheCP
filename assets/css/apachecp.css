@@ -1,0 +1,73 @@
+/*
+ * ApacheCP
+ * (c) 2015 Weidi Zhang
+ */
+
+.navbar-brand
+{
+	color: white !important;
+}
+
+.navbar-brand:hover
+{
+	color: #dfdfdf !important;
+}
+
+.content-wrapper
+{
+	min-height: 0px !important;
+}
+
+footer
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+label
+{
+	display: inline-block;
+	width: 140px;
+}
+
+.panel-body
+{
+	margin-bottom: -15px;
+}
+
+th
+{
+	width: 33.33%;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.center .btn-sm
+{
+	width: 75px;
+}
+
+#addSite
+{
+	margin-bottom: 20px;
+}
+
+.glyphicon-ok
+{
+	color: #449d44;
+}
+
+.glyphicon-remove
+{
+	color: #c9302c;
+}
+
+html
+{
+	position: relative;
+	min-height: 100%;
+}
