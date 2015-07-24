@@ -11,10 +11,11 @@ if (count(get_included_files()) <= 1) {
 ?><!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		<meta name="description" content="" />
-		<meta name="author" content="" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="description" content="Apache Control Panel">
+		<meta name="author" content="Weidi Zhang">
+		<meta name="robots" content="noindex">
 		<!--[if IE]>
 			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<![endif]-->
