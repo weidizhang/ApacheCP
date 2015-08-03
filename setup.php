@@ -25,6 +25,7 @@ if (php_sapi_name() === "cli") {
 		echo "Setting up tmp folder...\n";
 		if (!is_dir("./tmp")) {
 			mkdir("./tmp", 0777);
+			shell_exec("chmod 0777 ./tmp"); // above doesn't set to 0777 sometimes
 		}
 		shell_exec("chown www-data ./tmp");
 		echo "Done.\n\n";
