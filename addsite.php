@@ -50,7 +50,7 @@ if (isset($_POST["domain"], $_POST["admin"], $_POST["directory"], $_POST["overri
 	if (empty($domain) || empty($email) || empty($directory) || empty($override) || empty($forcewww)) {
 		$errMsg = "Please fill out all the required fields.";
 	}
-	elseif (($override != "All") && ($override != "None")) {
+	elseif (($override != "all") && ($override != "none")) {
 		$errMsg = "Invalid allow override option selected.";
 	}
 	elseif (($forcewww != "yes") && ($forcewww != "no")) {
