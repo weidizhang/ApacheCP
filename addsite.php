@@ -165,9 +165,9 @@ if ($showForm) {
 			<input type="text" class="form-control" placeholder="/path/to/website/" name="directory"<?php if (isset($_POST["directory"])) echo " value=\"" . $_POST["directory"] . "\""; ?>>
 			<br>
 			<label>Allow Override:</label>
-			<input type="radio" name="override" value="All" checked="checked"> All
+			<input type="radio" name="override" value="all" checked="checked"> All
 			&nbsp; &nbsp;
-			<input type="radio" name="override" value="None"> None
+			<input type="radio" name="override" value="none"> None
 			<br>
 			<label>Force WWW:</label>
 			<input type="radio" name="forcewww" value="yes"> Yes
